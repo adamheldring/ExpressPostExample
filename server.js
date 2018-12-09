@@ -10,6 +10,7 @@ const mongoServer = "mongodb://localhost/expressPostLecture"
 mongoose.connect(mongoServer, { useMongoClient: true })
 mongoose.Promise = Promise
 
+// Test
 // mongoose.connection.on("error", err => {
 //   console.error("connection error:", err)
 // })
